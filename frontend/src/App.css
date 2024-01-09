@@ -146,3 +146,70 @@
     text-align: center;
     color: var(--gray);
 }
+
+
+@media screen and (max-width: 778px) {
+    .card{
+        width: 60%;
+        height: 600px;
+        padding: 10px;
+    }
+    .card > h2{
+        font-size: 1.8rem;
+    }
+    .card > form{
+        width: 80%;
+    }
+    .card > form > input{
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+    .card > form > button{
+        padding: 12px 30px;
+        font-size: 15px;
+    }
+    .card > .navigation-link{
+        font-size: 15px;
+    }
+    .card > p{
+        font-size: 14px;
+        width: 90%;
+    }
+  }
+
+@media screen and (max-width: 558px) {
+    .card{
+        width: 80%;
+        height: 540px;
+        padding: 10px;
+    }
+    .card > h2{
+        font-size: 1.6rem;
+    }
+    .card > form{
+        width: 80%;
+    }
+    .card > form > input{
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    .card > form > button{
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    .card > .navigation-link{
+        font-size: 13px;
+    }
+    .card > p{
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 0px;
+        width: 90%;
+    }
+    .input-icon-field > .icon{
+        font-size: 1rem;
+    }
+    .input-icon-field > input{
+        font-size: 14px;
+    }
+  }
