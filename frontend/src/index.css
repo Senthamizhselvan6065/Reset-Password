@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,500&family=Lemon&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+:root{
+   --l-black: rgb(29, 29, 29);
+   --white: #fff;
+   --o-red: rgb(255, 60, 0);
+   --gray: rgb(202, 202, 202);
+   --black: #000;
+   --red: rgb(255, 0, 81);
+}
