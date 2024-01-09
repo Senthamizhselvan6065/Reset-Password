@@ -51,7 +51,7 @@ const Login = () => {
                      <button type='submit'>Login</button>
                  </form> 
               <span className="navigation-link"><Link smooth='true' id='link' to='/forgot/password'>Forgot password!</Link></span>   
-              <span className="navigation-link">Don't have an Account? <Link smooth='true' id='link' to='/register'>Sign in</Link></span>   
+              <span className="navigation-link">Don't have an Account? <Link smooth='true' id='link' to='/register'>Sign up</Link></span>   
         </div>
     </div>
   )
