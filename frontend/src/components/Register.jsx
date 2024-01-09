@@ -8,8 +8,6 @@ import { registerValidation } from '../helper/validate';
 
 const Register = () => {
 
-    const [loader, setLoader] = useState(false)
-
   const formik = useFormik({
       initialValues: {
            name: "",

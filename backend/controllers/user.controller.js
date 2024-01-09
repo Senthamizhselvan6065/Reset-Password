@@ -106,7 +106,7 @@ userRouter.post('/forgot/password', asyncErrorHandler( async (req, res, next) =>
         }) 
         res.status(200).json({
             success: true,
-            message: `send the link ${user.email}`,
+            message: `reset password link send ${user.email}`,
         })
     } catch (error) {
         user.resetPasswordToken = undefined;

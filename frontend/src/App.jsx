@@ -9,6 +9,7 @@ import ResetPassword from "./components/ResetPassword";
 import PageNotFound from "./components/PageNotFound";
 import {Toaster} from 'react-hot-toast';
 
+
 const App = () => {
   const router = createBrowserRouter([
     {

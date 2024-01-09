@@ -1,5 +1,5 @@
 import axios from 'axios';
-let BASE_URL = `http://localhost:8000/api/v1`;
+let BASE_URL = `https://password-reset-api-c3sy.onrender.com/api/v1`;
 
 
 /* register api call */
