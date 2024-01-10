@@ -53,6 +53,7 @@
     letter-spacing: 2px;
     font-weight: 500;
     color: var(--gray);
+    text-align: center;
 }
 
 .home-card > .button{
@@ -81,4 +82,58 @@
 .home-card > .button > button:hover{
     transform: scale(1.1);
     box-shadow: 0 0 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .home-card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-card{
+        width: 90%;
+        height: 500px;
+    }
+    .home-card > h2{
+        font-size: 1.8rem;
+    }
+    .home-card > .button > button{
+        padding: 10px 40px;
+        font-size: 1rem;
+     }
+}
+
+@media screen and (max-width: 600px) {
+     .home-card{
+        width: 90%;
+        height: 90%;
+        box-shadow: 0 0 30px;
+        border: 1px solid var(--o-red);
+        padding: 30px;
+     }
+     .home-card:hover{
+        border: 1px solid var(--gray);
+        transition: all 0.3s ease-in;
+     }
+     .home-card > h2{
+        text-align: center;
+        width: 90%;
+        font-size: 1.6rem;
+        width: 100%;
+     }
+     .home-card > .button{
+        gap: 20px;
+     }
+     .home-card > .button > button{
+        padding: 10px 30px;
+        font-size: 0.9rem;
+     }
+     .home-card::before{
+        display: none;
+     }
+     .home-card::after{
+        display: none;
+     }
 }
