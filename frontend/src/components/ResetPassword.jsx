@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { MdOutlinePassword } from "react-icons/md";
-import { resetPassword } from '../helper/apiCalls';
 import toast from 'react-hot-toast';
 import { useFormik } from 'formik';
-import { resetValidation } from '../helper/validate';
 
 const ResetPassword = () => {
 
@@ -13,7 +11,7 @@ const ResetPassword = () => {
          password: "",
          confirmPassword: ""
     },
-    validate: resetValidation,
+    validate: '',
     validateOnBlur: false,
     validateOnChange: false,
     onSubmit: values => {
@@ -24,11 +22,8 @@ const ResetPassword = () => {
   const {token} = useParams()
   const resetPasswordApiCall = async values => {
       try {
-          const response = await resetPassword(values, token);
+          const response = await resetpass(values, token);
           toast.success(response.data.message);
-          if(response.data.success === true){
-              setTimeout(window.close(), 1000)
-          }
       } catch (error) {
           toast.error(error.response.data.message)
       }
