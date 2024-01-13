@@ -4,7 +4,7 @@
 
 ## MERN Stack
 
-<div align="center">
+<div align="left">
 	<table>
 		<tr>
 			<td><code><img width="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript"/></code></td>
@@ -51,7 +51,7 @@
 
 <b>Reset Password</b>
   > get the link and reset your new password
-<pre>POST : <a href='https://password-reset-api-c3sy.onrender.com/api/v1/reset/password/:token'>/reset/password</a></pre>
+<pre>POST : <a href='https://password-reset-api-c3sy.onrender.com/api/v1/reset/password/:token'>/reset/password/:token</a></pre>
 
 ---------------------------------
 
