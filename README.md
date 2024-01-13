@@ -35,6 +35,24 @@
 
 -------------------------------
 
+## FrontEnd Router End Points
+
+### BASE_URL : https://password-resset-api.netlify.app
+
+<b>Create a user</b>
+<pre>POST : <a href='https://password-resset-api.netlify.app/register'>/register</a></pre>
+
+<b>Login a user</b>
+<pre>POST : <a href='https://password-resset-api.netlify.app/login'>/login</a></pre>
+
+<b>Forgot Password</b>
+<pre>POST : <a href='https://password-resset-api.netlify.app/forgot/password'>/forgot/password</a></pre>
+
+<b>Reset Password</b>
+<pre>POST : <a href='https://password-resset-api.netlify.app/reset/password/:token'>/reset/password/:token</a></pre>
+
+-------------------------------
+
 ## BackEnd Router End Points
 
 ### BASE_URL : https://password-reset-api-c3sy.onrender.com
@@ -54,19 +72,3 @@
 <pre>POST : <a href='https://password-reset-api-c3sy.onrender.com/api/v1/reset/password/:token'>/reset/password/:token</a></pre>
 
 ---------------------------------
-
-## FrontEnd Router End Points
-
-### BASE_URL : https://password-resset-api.netlify.app
-
-<b>Create a user</b>
-<pre>POST : <a href='https://password-resset-api.netlify.app/register'>/register</a></pre>
-
-<b>Login a user</b>
-<pre>POST : <a href='https://password-resset-api.netlify.app/login'>/login</a></pre>
-
-<b>Forgot Password</b>
-<pre>POST : <a href='https://password-resset-api.netlify.app/forgot/password'>/forgot/password</a></pre>
-
-<b>Reset Password</b>
-<pre>POST : <a href='https://password-resset-api.netlify.app/reset/password/:token'>/reset/password/:token</a></pre>
